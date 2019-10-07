@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>David's Map Mania</title>
+        <script src="maps.js"></script>
+        <link rel="stylesheet" href="maps.css"> 
+    </head>
+    <header>
+    <nav>
+				<li class="current"><a href="index.html">Dice Roll</a></li>
+				<li><a href="maps.html">Maps</a></li>
+				<li><a href="pa.html">Past Assingments</a></li>
+			</nav>
+    
+    </header>
+    <body onload="initApplication()">
+        <h1>Places David's Visted</h1>        
+
+        <div id="myMapID"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnh5sKLeAbTte3hT9VF1WVF7zDjht77V0&callback=initMap"
+            async defer>
+        </script>
+    </body>
+</html>
